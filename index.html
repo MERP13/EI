@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
- 
+    <link rel="icon" href="images/ei_logo_azul_pequeno.svg" type="image/x-icon">
 
 </head>
 
@@ -36,52 +36,60 @@
     </section>
 
     <section class="solicite">
-        <section class="card"> <!--motorista-->
+        <section class="card">
+            <!-- Motorista -->
             <div>
                 <image src="images/icon_motorista_grande.svg"></image>
             </div>
-                <div>
+            <div>
                 <div class="titulocard">
-                    <p> Motorista</p>
+                    <p>Motorista</p>
                 </div>
                 <div>
                     <p>EI! Peça um motorista para levá-lo onde você deseja, de onde estiver. Agende seu horário ou solicite imediatamente.</p>
+                    <button id="motoristaModalBtn">Solicitar</button>
                 </div>
             </div>
-            </div>
         </section>
-        <section class="card"> <!--ENTREGAS-->
+    
+        <section class="card">
+            <!-- Entrega -->
             <div>
                 <image src="images/icon_entregas_grande.svg"></image>
             </div>
-                <div>
+            <div>
                 <div class="titulocard">
-                    <p> Entrega Rapida</p>
+                    <p>Entrega Rápida</p>
                 </div>
                 <div>
                     <p>EI! Solicite um motoboy para entregas rápidas de documentos, alimentos e muito mais.</p>
+                    <button id="entregaModalBtn">Solicitar</button>
                 </div>
             </div>
-            </div>
         </section>
+    
         <section class="card">
+            <!-- Cargas -->
             <div>
                 <image src="images/icon_cargas_grande.svg"></image>
             </div>
-                <div>
+            <div>
                 <div class="titulocard">
-                    <p> Cargas</p>
+                    <p>Cargas</p>
                 </div>
                 <div>
                     <p>EI! Solicite a entrega de seus produtos, cargas e outros.</p>
+                    <button id="cargasModalBtn">Solicitar</button>
                 </div>
-            </div>
             </div>
         </section>
     </section>
+
     <footer>
-        <p> Rebel Labs</p>
-        <script src="script.js"></script>
+        <div> <p> Construido em </p> </div>
+        <div><image src="images/logo_lachain.png"></image></div>
+
+        <script src="scripts/modal.js"></script>
     </footer>
 </body>
 
